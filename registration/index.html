@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 검색엔진 트래킹 차단 -->
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="copyright" content="2022 copyright &amp; copy; ONPIA, all right reserved." />
+
+  <title>시냅토리&trade; : 가입</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="../../assets/favicon_onpia.png" />
+  <link rel="stylesheet" href="../../css/normalize.css" />
+  <link rel="stylesheet" href="../../css/style.regit.css" />
+
+  <script src="https://kit.fontawesome.com/a26d2b8a4d.js" crossorigin="anonymous"></script>
+
+  <!-- jQuery link -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrap scrollable-y">
+    <div class="vid off">
+      <!-- 이 페이지 뷰의 ID -->COM-000
+    </div>
+
+    <div id="Min_Width_Message_Regit">
+      <span><i class="fas fa-exclamation-triangle pa-r-xs"></i>디스플레이의 가로 해상도가 너무 낮습니다.&nbsp;<span>(가로 1280, 세로 600 픽셀 이상의 스크린 해상도를 권장합니다)</span></span>
+    </div>
+
+    <header class="box">
+      <div class="main_wrap flex-row-align-between">
+        <div class="main_left">
+          <div class="content flex-column">
+            <img src="../../assets/BI-v4-512x81-t.png" class="img_bi" alt="SYNAPTORY BI" height="34px"><!-- 높이 40픽셀의 BI -->
+          </div>
+        </div><!-- main_left end -->
+        <div class="main_right">
+          <div class="content"></div>
+        </div><!-- main_right end -->
+      </div><!-- main_wrap end -->
+    </header>
+
+    <script>
+      $(function () {
+        $('#Regit_Input_Step_1').addClass('on');
+        $('#User_Admin_Mail').focus();
+        $('.btn_open_step_1').click(function () {
+          $("#Regit_Input_Step_1, #Regit_Input_Step_2, #Regit_Input_Step_3").removeClass('on');
+          $("#Regit_Input_Step_1").addClass('on');
+          $('#User_Admin_Mail').focus();
+        });
+        $('.btn_open_step_2').click(function () {
+          $("#Regit_Input_Step_1, #Regit_Input_Step_2, #Regit_Input_Step_3").removeClass('on');
+          $("#Regit_Input_Step_2").addClass('on');
+        });
+        $('.btn_open_step_3').click(function () {
+          $("#Regit_Input_Step_1, #Regit_Input_Step_2, #Regit_Input_Step_3").removeClass('on');
+          $("#Regit_Input_Step_3").addClass('on');
+        });
+      });
+    </script>
+
+    <section class="box" id="Regit_Input_Step_1">
+      <div class="main_wrap flex-row-align-between">
+        <div class="main_left">
+          <div class="content">
+            <h1>시냅토리, 티켓 워크플로우</h1>
+            <p>보다 향상된 고객 경험을 위해,</br>고객 요청의 흐름을 관리합니다.</p>
+            <div class="img"></div>
+          </div>
+        </div><!-- main_left end -->
+        <div class="main_right">
+          <div class="content">
+            <div class="header flex-row-align-between">
+              <div class="active btn_open_step_1">STEP 1</div>
+              <div class="btn_open_step_2">STEP 2</div>
+              <div class="btn_open_step_3">STEP 3</div>
+            </div>
+            <div class="f-w100">
+              <h2>먼저 관리자 계정 정보를 입력해 주세요</h2>
+            </div>
+            <div class="f-obj f-w100 pa-r-0">
+              <div class="f-obj f-w50">
+                <label for="" class="top">계정 아이디(이메일)</label>
+                <input type="text" class="bad" id="User_Admin_Mail" placeholder="mail@company.com" maxlength="80" autocomplete="off" required="true" tabindex="1" value="">
+                <div class="invalid_feedback"><i class="fas fa-exclamation-triangle pa-r-xs"></i>오류, 유효한 값이 아닙니다.</div>
+              </div>
+              <div class="f-obj f-w50">
+                <label for="" class="top">이름</label>
+                <input type="text" class="good" placeholder="" maxlength="40" autocomplete="off" required="true" tabindex="2" value="">
+                <div class="invalid_feedback"><i class="fas fa-exclamation-triangle pa-r-xs"></i>오류, 유효한 값이 아닙니다.</div>
+              </div>
+            </div>
+            <div class="f-obj f-w100 pa-r-0">
+              <div class="f-obj f-w50">
+                <label for="" class="top">패스워드</label>
+                <input type="password" class="" placeholder="" maxlength="20" autocomplete="off" required="true" tabindex="3" value="">
+                <div class="invalid_feedback"><i class="fas fa-exclamation-triangle pa-r-xs"></i>오류, 유효한 값이 아닙니다.</div>
+              </div>
+              <div class="f-obj f-w50">
+                <label for="" class="top">패스워드 확인</label>
+                <input type="password" class="" placeholder="" maxlength="20" autocomplete="off" required="true" tabindex="4" value="">
+                <div class="invalid_feedback"><i class="fas fa-exclamation-triangle pa-r-xs"></i>오류, 유효한 값이 아닙니다.</div>
+              </div>
+            </div>
+            <div class="f-obj f-w50">
+              <label for="" class="top">휴대폰 번호</label>
+              <input type="text" class="" placeholder="- 없이 숫자만 입력해주세요" maxlength="15" autocomplete="off" required="true" tabindex="5" value="">
+              <div class="invalid_feedback"><i class="fas fa-exclamation-triangle pa-r-xs"></i>오류, 유효한 값이 아닙니다.</div>
+            </div>
+            <div class="bottom">
+              <button class="f-w100 ma-0 blue inactive" tabindex="6">다음 단계로<i class="fas fa-arrow-right pa-l-xs"></i></button>
+            </div><!-- 입력 값 유효성 통과 후 버튼의 "inactive" 클래스 remove -->
+          </div><!-- content end -->
+        </div><!-- main_right end -->
+      </div><!-- main_wrap end -->
+    </section><!-- Regit_Input_Step_1 end -->
+
+    <section class="box" id="Regit_Input_Step_2">
+      <div class="main_wrap flex-row-align-between">
+        <div class="main_left">
+          <div class="content">
+            <h1>시냅챗(SYNAP-CHAT)</h1>
+            <p>실시간 채팅 상담을 통해,</br>고객 요청을 즉시 티켓으로 전환하세요.</p>
+            <div class="img"></div>
+          </div>
+        </div><!-- main_left end -->
+        <div class="main_right">
+          <div class="content">
+            <div class="header flex-row-align-between">
+              <div class="btn_open_step_1">STEP 1</div>
+              <div class="active btn_open_step_2">STEP 2</div>
+              <div class="btn_open_step_3">STEP 3</div>
+            </div>
+            <div class="f-w100">
+              <h2><span>홍길동</span>님의 동의가 필요합니다</h2>
+            </div>
+            <div class="f-obj f-w100">
+              <div class="checkbox_wrap"><input type="checkbox" id="Plan_Contract" name="01" tabindex="1"><label for="Plan_Contract" class="checkbox_label">시냅토리 서비스 플랜 이용약관에 동의합니다<span>(필수)</span></label><a href="" class="t-btn-blue"><i class="fas fa-external-link-alt pa-l-xs pa-r-xs"></i>새창에서 열기</a></div>
+            </div>
+            <div class="f-obj f-w100">
+              <div class="checkbox_wrap"><input type="checkbox" id="Secure_Contract" name="01" tabindex="2"><label for="Secure_Contract" class="checkbox_label">개인정보 처리 방침에 동의합니다<span>(필수)</span></label><a href="" class="t-btn-blue"><i class="fas fa-external-link-alt pa-l-xs pa-r-xs"></i>새창에서 열기</a></div>
+            </div>
+            <div class="bottom flex-row-align-between">
+              <button class="f-w48 ma-0" tabindex="4"><i class="fas fa-arrow-left pa-r-xs"></i>이전 단계로</button>
+              <button class="f-w48 ma-0 blue inactive" tabindex="3">다음 단계로<i class="fas fa-arrow-right pa-l-xs"></i></button>
+            </div><!-- 입력 값 유효성 통과 후 버튼의 "inactive" 클래스 remove -->
+          </div><!-- content end -->
+        </div><!-- main_right end -->
+      </div><!-- main_wrap end -->
+    </section><!-- Regit_Input_Step_2 end -->
+
+    <section class="box" id="Regit_Input_Step_3">
+      <div class="main_wrap flex-row-align-between">
+        <div class="main_left">
+          <div class="content">
+            <h1>무료 구독</h1>
+            <p>최종 가입 및 서비스 무료 사용을 위해</br>비즈니스를 위한 기업사용자 여부를 확인합니다.</p>
+            <p>입력해 주신 정보로 승인 완료 여부를 안내드리며,</br>영업일 기준 최대 24시간 이내에 완료됩니다.</p>
+            <div class="img"></div>
+          </div>
+        </div><!-- main_left end -->
+        <div class="main_right">
+          <div class="content">
+            <div class="header flex-row-align-between">
+              <div class="btn_open_step_1">STEP 1</div>
+              <div class="btn_open_step_2">STEP 2</div>
+              <div class="active btn_open_step_3">STEP 3</div>
+            </div>
+            <div class="f-w100">
+              <h2><span>홍길동</span>님의 서비스 그룹(조직)을 생성합니다</h2>
+            </div>
+            <div class="f-obj f-w100 pa-r-0">
+              <div class="f-obj f-w50">
+                <label for="" class="top">단체(또는 회사명)</label>
+                <input type="text" class="" placeholder="소속하고 계신 기업명을 입력해주세요" maxlength="40" autocomplete="off" required="true" tabindex="1" value="">
+              </div>
+              <div class="f-obj f-w50">
+                <label for="" class="top_nbsp"></label>
+                <select tabindex="2">
+                  <option value="">업종 카테고리</option>
+                  <option value="10">공공기관, 비영리</option>
+                  <option value="20">교육, 서비스</option>
+                  <option value="30">금융, 보험</option>
+                  <option value="40">병원, 보건, 의료</option>
+                  <option value="50">생활건강, 화장품, 식품</option>
+                  <option value="60">여행, 숙박, 음식점</option>
+                  <option value="70">예술, 영화, 공연</option>
+                  <option value="80">IT, 가전, 기술</option>
+                  <option value="90">건축, 아파트, 빌딩</option>
+                  <option value="99">기타</option>
+                </select>
+              </div>
+            </div>
+            <div class="f-obj f-w50">
+              <label for="" class="top">사업자 등록 번호</label>
+              <div class="f-obj f-w20">
+                <input type="text" class="t-center" placeholder="000" maxlength="3" autocomplete="off" required="true" tabindex="3" value="">
+              </div>
+              <div class="f-obj f-w5">
+                <p class="dash">-</p>
+              </div>
+              <div class="f-obj f-w15">
+                <input type="text" class="t-center" placeholder="00" maxlength="2" autocomplete="off" required="true" tabindex="4" value="">
+              </div>
+              <div class="f-obj f-w5">
+                <p class="dash">-</p>
+              </div>
+              <div class="f-obj f-w25">
+                <input type="text" class="t-center" placeholder="00000" maxlength="5" autocomplete="off" required="true" tabindex="5" value="">
+              </div>
+            </div>
+            <div class="f-obj f-w100">
+              <div class="f-obj f-w30 pa-r-0">
+                <label for="" class="top">그룹(조직) 도메인</label>
+                <input type="text" class="t-right" placeholder="your-company" maxlength="20" autocomplete="off" required="true" tabindex="6" value="">
+              </div>
+              <div class="f-obj pa-r-xs">
+                <label for="" class="top_nbsp"></label>
+                <p class="domain">.synaptory.com/desk/</p>
+              </div>
+              <div class="f-obj f-w30">
+                <label for="" class="top">채팅 상담 채널</label>
+                <input type="text" class="" placeholder="channel-name" maxlength="20" autocomplete="off" required="true" tabindex="7" value="">
+              </div>
+              <p class="f-clear description">영문 및 숫자, “_(언더바)”, “-(대시)”만 입력 가능합니다. 한글, 공백(띄어쓰기), 기타 특수문자를 포함할 수 없습니다.</p>
+            </div>
+            <div class="f-obj f-w100 pa-r-0">
+              <div class="f-obj f-w80">
+                <input type="text" class="" placeholder="사업자 등록증(pdf, gif, jpg, jpeg, png) 첨부(최대 10MB)" maxlength="20" autocomplete="off" required="true" readonly="true" value="">
+              </div>
+              <div class="f-obj f-w20">
+                <button class="f-w100 ma-0" tabindex="8"><i class="fas fa-file-upload pa-r-xs"></i>파일 첨부</button>
+              </div>
+            </div>
+            <div class="bottom flex-row-align-between">
+              <button class="f-w48 ma-0" tabindex="10"><i class="fas fa-arrow-left pa-r-xs"></i>이전 단계로</button>
+              <button class="f-w48 ma-0 blue inactive" tabindex="9" onclick="location.href='feedback.regit.html'">서비스 가입 승인 요청<i class="fas fa-arrow-right pa-l-xs"></i></button>
+            </div><!-- 입력 값 유효성 통과 후 버튼의 "inactive" 클래스 remove -->
+          </div><!-- content end -->
+        </div><!-- main_right end -->
+      </div><!-- main_wrap end -->
+    </section><!-- Regit_Input_Step_3 end -->
+  </div><!-- wrap end -->
+</body>
+
+</html>
